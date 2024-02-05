@@ -24,9 +24,6 @@ nav {
     max-height: 100px;
     max-width: 100%;
     padding: 10px;
-    @media only screen and (min-width: 600px) {
-        padding: 20px;
-    }
 }
 
 .current-page {
@@ -105,6 +102,10 @@ nav ul {
     flex-direction: column;
 }
 
+.pet-blurb p {
+    font-size: 1vw;
+}
+
 .pet-media-title {
     grid-area: 3 / 1 / span 1 / span 2;
     display: flex;
@@ -149,4 +150,10 @@ nav ul {
     max-width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+    .pet-main, .pet-blurb, .pet-media {
+        width: 100%;
+    }
 }
