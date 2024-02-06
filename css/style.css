@@ -153,6 +153,7 @@ nav ul {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+    vertical-align: middle;
 }
 
 .pet-likes {
@@ -195,6 +196,7 @@ nav ul {
     max-width: 100%;
     height: auto;
     object-fit: contain;
+    margin-top: 1vh;
 }
 .pet-media video {
     max-width: 100%;
