@@ -202,11 +202,8 @@ nav ul {
 
 .pet-media img {
     max-width: 100%;
-    height: auto;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    object-fit: cover;
-    margin-top: 10px;
+    max-height: 100%;
+    object-fit: contain;
 }
 .pet-media video {
     max-width: 100%;
@@ -248,10 +245,8 @@ nav ul {
 
 .recipe-main img {
     max-width: 100%;
-    height: auto;
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    object-fit: cover;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .recipe-blurb {
