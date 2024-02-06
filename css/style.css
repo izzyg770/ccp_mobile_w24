@@ -50,7 +50,7 @@ img {
 }
 
 video {
-    width: 250px;
+    width: fit-content;
     display: block;
     margin: 0 auto;
     border: 3px dashed black;
