@@ -24,6 +24,8 @@ nav {
     max-height: 100px;
     max-width: 100%;
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .current-page {
@@ -38,7 +40,7 @@ a {
 }
 
 a:hover {
-    color: cadetblue;
+    color: blue;
     font-weight: bold;
 }
 
@@ -77,14 +79,6 @@ nav ul {
     row-gap: 10px;
 }
 
-@media (min-width: 768px) {
-    .pet-grid {
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      grid-template-rows: minmax(10px, auto);
-      grid-gap: 20px;
-    }
-  }
-
 .pet-name {
     grid-area: 1 / 1 / span 1 / span 3;
     display: flex;
@@ -105,17 +99,13 @@ nav ul {
 }
 
 .pet-blurb {
-    grid-area: 2 / 2 / span 1 / span 2;
+    grid-area: 3 / 1 / span 1 / span 3;
     display: flex;
     flex-direction: column;
 }
 
-.pet-blurb p {
-    font-size: 1vw;
-}
-
 .pet-media-title {
-    grid-area: 3 / 1 / span 1 / span 2;
+    grid-area: 4 / 1 / span 1 / span 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,7 +114,7 @@ nav ul {
 }
 
 .pet-media {
-    grid-area: 4 / 1 / span 2 /span 2;
+    grid-area: 5 / 1 / span 2 /span 2;
     display: grid;
 }
 
@@ -161,5 +151,5 @@ nav ul {
 }
 
 .pet-likes {
-    grid-area: 5 / 1 / span 1 / span 3;
+    grid-area: 2 / 2 / span 1 / span 2;
 }
