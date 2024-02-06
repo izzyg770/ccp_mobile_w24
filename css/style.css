@@ -210,3 +210,111 @@ nav ul {
     object-fit: contain;
     margin-top: 10px;
 }
+
+.recipe-grid {
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.recipe-name {
+    grid-area: 1 / 1 / span 1 / span 2;
+    background-color: #f6e7d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.recipe-main {
+    grid-area: 2 / 1 / span 1 / span 2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-main img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.recipe-blurb {
+    grid-area: 3 / 1 / span 1 / span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.recipe-ingredients {
+    grid-area: 4 / 1 / span 2 / span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.recipe-details {
+    grid-area: 4 / 2 / span 1 / span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    vertical-align: center;
+    text-align: center;
+    margin: 0;
+    padding: 4px;
+}
+
+.recipe-details li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.category {
+    font-size: 14px;
+    text-align: center;
+    padding-right: 7px;
+    font-style: italic;
+}
+
+.recipe-steps {
+    grid-area: 6 / 1 / span 2 / span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.recipe-steps ul {
+    list-style-type: disc;
+    margin-left: 10px;
+}
+.recipe-ingredients ul {
+    list-style-type: disc;
+    margin-left: 30%;
+}
+
+.recipe-media {
+    grid-area: 5 / 2 / span 3 /span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.recipe-media img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-top: 10px;
+}
