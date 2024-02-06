@@ -24,8 +24,6 @@ nav {
     max-height: 100px;
     max-width: 100%;
     padding: 10px;
-    display: flex;
-    justify-content: center;
 }
 
 .current-page {
@@ -64,7 +62,7 @@ a:hover {
 
 nav ul {
     display: grid;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     justify-items: center;
     list-style-type: none;
