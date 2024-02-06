@@ -152,14 +152,14 @@ nav ul {
 }
 
 .bottom-grid img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .bottom-grid video {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
 }
 
