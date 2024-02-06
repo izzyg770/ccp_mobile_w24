@@ -157,8 +157,10 @@ nav ul {
 
 .pet-main img {
     max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+    height: auto;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .pet-likes {
@@ -246,8 +248,10 @@ nav ul {
 
 .recipe-main img {
     max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+    height: auto;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    object-fit: cover;
 }
 
 .recipe-blurb {
