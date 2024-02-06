@@ -42,7 +42,7 @@ p {
 }
 
 img {
-    width: 250px;
+    max-width: fit-content;
     display: block;
     margin: 0 auto;
     border: 10px dashed black;
