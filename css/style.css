@@ -78,7 +78,7 @@ nav ul {
 .pet-grid {
     display: grid;
     padding: 10px;
-    grid-template-columns: 60% 30%;
+    grid-template-columns: 60% 40%;
     column-gap: 10px;
     row-gap: 10px;
 }
@@ -104,6 +104,11 @@ nav ul {
 
 .pet-likes {
     grid-area: 2 / 2 / span 1 / span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    list-style-type: none;
 }
 
 .pet-blurb {
