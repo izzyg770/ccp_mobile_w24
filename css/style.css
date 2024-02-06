@@ -108,7 +108,7 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     justify-items: center;
-    list-style-type: none;
+    align-items: center;
 }
 
 .pet-blurb {
@@ -127,7 +127,7 @@ nav ul {
 }
 
 .pet-media {
-    grid-area: 5 / 1 / span 2 /span 2;
+    grid-area: 5 / 1 / span 1 /span 2;
     display: grid;
 }
 
@@ -139,7 +139,7 @@ nav ul {
 }
 
 .top-grid img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     object-fit: contain;
 }
@@ -152,13 +152,13 @@ nav ul {
 }
 
 .bottom-grid img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     object-fit: cover;
 }
 
 .bottom-grid video {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     object-fit: cover;
 }
