@@ -66,7 +66,7 @@ div {
     box-sizing: inherit;
 }
 
-nav {
+header nav {
     background-image: url('../images/header.jpeg');
     background-size: cover;
     background-position: center;
@@ -134,15 +134,25 @@ nav ul {
 
 .table-of-contents {
     padding: 5px 5px 5px 5px;
-    width: 75%;
+    width: 100%;
     margin: auto;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.table-of-contents ul {
-    list-style-type: disc;
-    margin-left: 5%;
+.table-of-contents a {
+    margin: 0;
     padding: 5px 5px 5px 5px;
+}
+
+.table-of-contents-category {
+    font-size: 18px;
+    text-align: center;
+    padding-right: 7px;
+    font-style: italic;
+    padding-bottom: 5px;
 }
 
 .pet-grid {
